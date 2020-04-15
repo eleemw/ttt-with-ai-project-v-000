@@ -1,5 +1,6 @@
 module Players
   class Computer < Player
+
     def move(board)
       puts "Computer select move 1 - 9"
       if !board.taken?(5)
